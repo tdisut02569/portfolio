@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #12121C;
+    font-family: Sora;
+}
+.container{
+    width: 90%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logoText{
+    font-weight: regular;
+    font-style: 27px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.headerNav{
+    display: flex;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.active{
+    color: #FFFFFF;
+}
+.headerButton{
+    background-color: #222233;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 14px 24px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+.content1TitleBlock{
+    margin-top: 120px;
+}
+.content1Title{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    color: #FFFFFF;
+}
+.titleSpan{
+    color: #88888D;
+}
+.titleBlockText{
+    font-weight: regular;
+    font-size: 24px;
+    line-height: 32px;
+    color: #88888D;
+    max-width: 830px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.titleBlockButton{
+    background-color: #006ADA;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    cursor: pointer;
+}
+
+
+/* Cards */
+.content1Cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 385px;
+    height: 205px;
+    border-radius: 8px;
+
+}
+.cardImage{
+    padding: 15px;
+    background-color: #222233;
+    border-radius: 8px;
+    margin: 20px;
+}
+.activeCardImage{   
+    background-color: #57EFB4;
+}
+.cardActive{
+    background-color: #222233;
+}
+.cardTitle{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.cardText{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #88888D;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.workCard{
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informationTextCard{
+    width: 50%;
+    align-content: center;
+}
+
+.workCardTitle{
+    color:white;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bold;
+}
+
+.informationCardText{
+    color:#88888d;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.factCardHeader{
+    width: 50%;
+}
+
+.factTitle{
+    color:white;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.factCard{
+    width: 194px;
+    height: 112px;
+}
+.ctaTextCard{
+    width: 50%;
+    align-content: center;
+}
+
+.ctaCardText{
+    color:#88888d;
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
